@@ -6,27 +6,27 @@
     app:startDestination="@id/homeFragment">
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.ejercicionavigationdrawerkotlin.HomeFragment"
+        android:name="com.example.ejercicionavigationdrawerkotlin.fragmentos.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/ASIRFragment"
-        android:name="com.example.ejercicionavigationdrawerkotlin.ASIRFragment"
+        android:name="com.example.ejercicionavigationdrawerkotlin.fragmentos.ASIRFragment"
         android:label="@string/menu_asir"
         tools:layout="@layout/fragment_asir" />
     <fragment
         android:id="@+id/DAMFragment"
-        android:name="com.example.ejercicionavigationdrawerkotlin.DAMFragment"
+        android:name="com.example.ejercicionavigationdrawerkotlin.fragmentos.DAMFragment"
         android:label="@string/menu_dam"
         tools:layout="@layout/fragment_dam" />
     <fragment
         android:id="@+id/DAWFragment"
-        android:name="com.example.ejercicionavigationdrawerkotlin.DAWFragment"
+        android:name="com.example.ejercicionavigationdrawerkotlin.fragmentos.DAWFragment"
         android:label="@string/menu_daw"
         tools:layout="@layout/fragment_daw" />
     <fragment
         android:id="@+id/acercaFragment"
-        android:name="com.example.ejercicionavigationdrawerkotlin.AcercaFragment"
+        android:name="com.example.ejercicionavigationdrawerkotlin.fragmentos.AcercaFragment"
         android:label="@string/menu_acerca_de"
         tools:layout="@layout/fragment_acerca" />
 </navigation>
